@@ -20,6 +20,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: BatchScript@1
-  inputs:
-    filename: 'C:\Users\athulasidoss\Documents\InitScript.bat'
